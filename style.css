@@ -41,6 +41,11 @@ button {
   display: flex;
 }
 
+.app__container {
+  height: calc(100vh - 55px);
+  display: flex;
+}
+
 .logo {
   align-self: center;
   margin-left: 20px;
@@ -87,4 +92,22 @@ button {
 }
 
 .dd-toggle__text {
+}
+
+/* --------------- */
+.sidebar {
+  background-color: #10171a;
+  width: 75px;
+}
+
+/* --------------- */
+.panel {
+  background-color: #2b363c;
+  width: 350px;
+}
+
+/* --------------- */
+.main {
+  background-color: #edf1f3;
+  flex: 1;
 }
